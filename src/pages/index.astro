@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Justwatch - Stream Your Favorites</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.0/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-900 text-white">
+
+    <!-- Navbar -->
+    <nav class="bg-gray-800 p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-3xl font-bold">Justwatch</a>
+            <div class="space-x-6">
+                <a href="#" class="hover:text-gray-400">Home</a>
+                <a href="#" class="hover:text-gray-400">Movies</a>
+                <a href="#" class="hover:text-gray-400">TV Shows</a>
+                <a href="#" class="hover:text-gray-400">My List</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero bg-cover bg-center h-screen" style="background-image: url('https://source.unsplash.com/random/1600x900?movie');">
+        <div class="container mx-auto flex items-center justify-center h-full">
+            <div class="text-center">
+                <h1 class="text-6xl font-extrabold mb-4">Unlimited Movies, TV Shows, and More</h1>
+                <p class="text-2xl mb-8">Watch anywhere. Cancel anytime.</p>
+                <a href="#" class="bg-red-500 hover:bg-red-600 text-white font-bold py-3 px-8 rounded-full text-lg">$14.99 Per month</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Section -->
+    <section class="py-20">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold mb-12">Featured Titles</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                <!-- Movie/Show Card -->
+                <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg">
+                    <img src="https://source.unsplash.com/random/400x600?movie" alt="Movie Title" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold mb-2">Movie Title</h3>
+                        <p class="text-gray-400">Brief description of the movie or show.</p>
+                    </div>
+                </div>
+                <!-- Repeat the above block for more movies/shows -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 py-6">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 Netflex. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
+
